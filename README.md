@@ -38,6 +38,7 @@ Find: `Ctrl+p`
 Smart fuzzy: `\ff`
 
 Find in buffers: `\fb`
+
 Find in tags: `\ft`
 
 ### Undotree
