@@ -25,17 +25,21 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ### NerdTree:
 
-Open: `\nt'
-Refresh: '\nr'
-Find: '\nf'
+Open: `\nt`
+
+Refresh: `\nr`
+
+Find: `\nf`
 
 ### Fzf
 
-Find: `Ctrl+p'
+Find: `Ctrl+p`
+
 Smart fuzzy: `\ff`
-Find in buffers: '\fb'
-Find in tags: '\ft'
+
+Find in buffers: `\fb`
+Find in tags: `\ft`
 
 ### Undotree
 
-Show: `\u'
+Show: `\u`
