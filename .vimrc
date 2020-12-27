@@ -7,7 +7,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set number
+set number relativenumber
 set showmatch
 set nowrap
 set smartcase
@@ -108,3 +108,7 @@ set statusline+=%10(L(%l/%L)%)\           " line
 set statusline+=%2(C(%v/125)%)\           " column
 set statusline+=%P                        " percentage of file
 
+
+" Copy - Paste
+vnoremap <C-c> "+y
+map <C-p> "+P
