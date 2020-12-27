@@ -31,7 +31,8 @@ Refresh: `\nr`
 
 Find: `\nf`
 
-### Fzf
+
+### Fzf:
 
 Find: `Ctrl+p`
 
@@ -41,6 +42,14 @@ Find in buffers: `\fb`
 
 Find in tags: `\ft`
 
-### Undotree
+
+### Undotree:
 
 Show: `\u`
+
+
+### Copy-Paste
+
+Copy from vim: `Ctrl+c`
+
+Paste into vim: `Ctrl+p`
