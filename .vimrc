@@ -36,7 +36,6 @@ Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-dispatch'
 Plug 'preservim/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 call plug#end()

@@ -2,54 +2,34 @@
 
 ## Install
 
-1. Download vim-plug
+1. Clone this repo
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+git clone git@github.com:Ernyoke/vim-dotfiles.git
 ```
 
-2. Copy the .vimrc file into the `home` directory.
-
-3. Run the following command: `mdkir ~/home/.vim/undodir -p`
-
-4. Open vim and run `:PlugInstall`
-
-5. Install Coc extensions:
-
-```
-:CocInstall coc-json coc-tsserver coc-java
-```
+2. Execute `setup.sh`
 
 ## Usage
 
 ### NerdTree:
 
-Open: `\nt`
-
-Refresh: `\nr`
-
-Find: `\nf`
-
+- Open: `\nt`
+- Refresh: `\nr`
+- Find: `\nf`
 
 ### Fzf:
 
-Find: `Ctrl+p`
-
-Smart fuzzy: `\ff`
-
-Find in buffers: `\fb`
-
-Find in tags: `\ft`
-
+- Find: `Ctrl+p`
+- Smart fuzzy: `\ff`
+- Find in buffers: `\fb`
+- Find in tags: `\ft`
 
 ### Undotree:
 
-Show: `\u`
-
+- Show: `\u`
 
 ### Copy-Paste
 
-Copy from vim: `Ctrl+c`
-
-Paste into vim: `Ctrl+p`
+- Copy from vim: `Ctrl+c`
+- Paste into vim: `Ctrl+p`
